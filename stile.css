@@ -1,0 +1,27 @@
+* {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+
+.main {
+  width: 400px;
+  border-left: 8px solid #b43324;
+  font-size: 25px;
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  width: 400px;
+  height: 70px;
+  color: #b43324;
+  padding-top: 19px;
+  box-sizing: border-box;
+  padding-left: 40px;
+}
+
+.button:hover {
+  background-color: #b43324;
+  color: white;
+  transition: 0.2s;
+}
